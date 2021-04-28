@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Contato - Contraste</title>
+</head>
+<body>
+    <header>
+        <h1><img id="img_logo" src="imagens/img_logo.png" alt="Logo Contraste"/></h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="projetos.html">PROJETOS</a></li>
+                <li><a href="contato.html">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="div_contato">
+        <article id="article_contato"> 
+            <h2>Nossas Redes Sociais:</h2>
+            <!--Foi colocado as imagens dentro de uma tabela para poder posicionar as imagens melhor-->
+            <table style="width:100%;">
+                <tr>
+                    <th><a href="https://www.facebook.com/" target="_top"><img class="img_icones" src="imagens/img_Facebook.png"/></a></th>
+                    <th><a href="https://www.instagram.com/" target="_blank"><img class="img_icones" src="imagens/img_Instagram.png"/></a></th>
+                    <th><a href="https://www.youtube.com/" target="_blank"><img class="img_icones" src="imagens/img_YouTube.png"/></a></th>
+                </tr>
+            </table>
+            <h2>Nosso Endereço:</h2>
+            <p>Universidade Presbiteriana Mackenzie</br>Rua da Consolação, 930 - Consolação, São Paulo - SP, 01302-907</p>
+        </article>
+        <article id="article_formulario">
+            <div id="div_formulario">
+                <form method="get" action="">
+                    <h2 style="text-align:center;">Inscreva-se:</h2>
+                    <div class="div_inputs">
+                        <input class="inputs" type="text" name="nome" placeholder="Nome" required/>
+                    </div>
+                    <div class="div_inputs"> 
+                        <input class="inputs" type="text" name="sobrenome" placeholder="Sobrenome" required/>
+                    </div>
+                    <div class="div_inputs">
+                        <input class="inputs" type="email" name="email" placeholder="E-mail" required/>
+                    </div>
+                    <div class="div_inputs">
+                        <textarea class="inputs" placeholder="Escreva aqui sua mensagem..." required></textarea>
+                    </div>
+                    <div class="div_inputs">
+                        <input type="checkbox" name="infoEmial" value="sim"/>
+                        <label>Desejo receber informações via e-mail</label>
+                    </div>
+                    <div style="text-align:center;">
+                        <input id="input_enviar" type="submit" value="ENVIAR"/>
+                    </div>
+                </form>
+            </form>
+        </article>
+    </div>
+    <footer>
+        <h4>#Contraste-se</h4>
+        <h4>© Copyright - 2019</h4>
+    </footer>
+</body>
+</html>
